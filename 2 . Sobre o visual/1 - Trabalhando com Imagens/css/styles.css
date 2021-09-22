@@ -1,0 +1,29 @@
+body {
+  font-size: 22pt;
+  font-family: verdana;
+  /* aplicando imagem de fundo na página   */
+  background-image: url(/img/slide2.jpg);
+  /* aplicando formatação para o fundo da página não rolar junto com a barra de rolagem */
+  background-attachment: fixed;
+  /* formatando o tamanho da imagem */
+  background-size: cover;
+  background-repeat: repeat;
+  /* aplicando com que a imagem do lado inferior não suma conforme o movimentar da janela pode se usar px ou porcentagem */
+  background-position: right bottom;
+  /* Centralizando a página ao centro */
+  width: 700px;
+  margin: auto;
+  color: black;
+}
+p {
+  /* Formatando espaçamento de texto */
+  line-height: 1.5;
+}
+/* Formatando imagem para ficar ao lado esquerdo do texto usando a popriedade Float que é responsável
+por esse tipo de formatação. */
+.img-html {
+  float: left;
+}
+.img-css {
+  float: right;
+}
