@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(0, 0, 0, 0.13);
+  margin: 0px;
+  font-family: arial;
+}
+.header1 {
+  background-image: url(/img/bg-3.jpg);
+  height: 700px;
+  background-position: right center;
+  background-size: cover;
+}
+.header2 h1 {
+  color: white;
+  text-align: center;
+  padding-top: 260px;
+  font-size: 56px;
+  text-transform: uppercase;
+  /* efeito esfumaçado */
+  text-shadow: 4px 5px 4px black;
+}
+.header2 p {
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.493);
+  margin: 160px 510px;
+  padding: 20px 0px;
+  border-bottom: 4px solid white;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+.setor {
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
