@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0, 0, 0, 0.13);
+  background-color: #bdbdbd;
   margin: 0px;
   font-family: arial;
 }
@@ -37,4 +37,41 @@ main {
   background-color: white;
   padding: 15px;
   margin-top: 15px;
+}
+
+.img {
+  display: inline-block;
+  width: 300px;
+  height: 10%;
+  /* border: 2px solid green; */
+  text-align: center;
+  margin: 0px 20px;
+}
+.segundasecao {
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
+div .setor .img p {
+  font-size: 25px;
+  color: white;
+  padding: 10px 0px 1px;
+  margin: 0px 0px;
+  background-color: #424242;
+  height: 50px;
+}
+footer {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  /* border: 1 px red;
+  border-style: solid; */
+  background-color: #616161;
+  margin-bottom: 0px;
+}
+#rodape p {
+  color: white;
+  padding-top: 40px;
+  /* efeito esfumaçado */
+  text-shadow: 3px 3px 2px black;
 }
